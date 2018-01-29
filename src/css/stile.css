@@ -1,12 +1,25 @@
-.chart {
-    font-family: Arial, sans-serif;
-    font-size: 10px;
+#chart rect{
+  fill: #4aaeea;
 }
-.axis path, .axis line {
-    fill: none;
-    stroke: #000;
-    shape-rendering: crispEdges;
+
+#chart text{
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end; 
 }
-.bar {
-    fill: steelblue;
+
+.axis text{
+  font: 10px sans-serif;
+}
+
+.axis path, .axis line{
+  fill: none;
+  stroke : #fff;
+  shape-rendering: crispEdges;
+}
+
+body{
+  background: #1a1a1a;
+  color : #eaeaea;
+  padding : 10px;
 }
